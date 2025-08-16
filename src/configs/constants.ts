@@ -1,9 +1,9 @@
-import { Briefcase, Lightbulb, Users, Medal, Wrench, Rocket } from "lucide-react";
+import { Briefcase, Lightbulb, Users, Medal, Wrench, Rocket, LucideIcon } from "lucide-react";
 
 interface ServiceList {
     title: string;
     description: string;
-    icon: React.ElementType;
+    icon: LucideIcon;
 }
 
 export const serviceList : ServiceList[] = [
@@ -27,7 +27,7 @@ export const serviceList : ServiceList[] = [
 interface FeatureList {
     title: string;
     description: string;
-    icon: React.ElementType;
+    icon: LucideIcon;
 }
 
 export const featureList: FeatureList[] = [
