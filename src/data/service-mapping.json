@@ -1,0 +1,193 @@
+{
+  "services": {
+    "expert-staffing": {
+      "id": "expert-staffing",
+      "title": "Expert Staffing",
+      "shortDescription": "We provide top-tier AI and software engineers to augment your team and accelerate your project timelines.",
+      "markdownFile": "/content/services/expert-staffing.md",
+      "category": "general",
+      "features": ["Vetted AI Engineers", "Flexible Contracts", "Rapid Onboarding", "24/7 Support"],
+      "technologies": ["Python", "TensorFlow", "PyTorch", "Hugging Face", "OpenAI API"]
+    },
+    "ai-consulting": {
+      "id": "ai-consulting",
+      "title": "AI Consulting",
+      "shortDescription": "Our in-house experts design and build custom Generative AI solutions tailored to your specific business needs.",
+      "markdownFile": "/content/services/ai-consulting.md",
+      "category": "general",
+      "features": ["Custom AI Solutions", "Strategy Development", "Implementation Support", "ROI Analysis"],
+      "technologies": ["Large Language Models", "Computer Vision", "NLP", "MLOps", "Cloud AI"]
+    },
+    "corporate-training": {
+      "id": "corporate-training",
+      "title": "Corporate Training",
+      "shortDescription": "Empower your workforce with our comprehensive training programs on GenAI integration and best practices.",
+      "markdownFile": "/content/services/corporate-training.md",
+      "category": "general",
+      "features": ["Hands-on Workshops", "Custom Curriculum", "Certification Programs", "Follow-up Support"],
+      "technologies": ["AI Ethics", "Prompt Engineering", "AI Tools", "Data Science", "Machine Learning"]
+    },
+    "ai-chatbot": {
+      "id": "ai-chatbot",
+      "title": "AI Chatbot",
+      "shortDescription": "24/7 automated customer assistance using NLP for FAQs, booking requests, and product inquiries.",
+      "markdownFile": "/content/services/ai-chatbot.md",
+      "category": "support",
+      "features": ["Natural Language Understanding", "Multi-language Support", "Integration Ready", "Analytics Dashboard"],
+      "technologies": ["GPT-4", "Dialogflow", "Rasa", "Microsoft Bot Framework", "WebSocket"]
+    },
+    "voice-assistant": {
+      "id": "voice-assistant",
+      "title": "Voice-based Virtual Assistant",
+      "shortDescription": "Let customers interact via voice commands (Speech-to-Text + Text-to-Speech).",
+      "markdownFile": "/content/services/voice-assistant.md",
+      "category": "support",
+      "features": ["Real-time Speech Recognition", "Natural Voice Synthesis", "Multi-language Support", "Custom Wake Words"],
+      "technologies": ["Whisper API", "Azure Speech Services", "Google Cloud Speech", "Amazon Alexa Skills"]
+    },
+    "sentiment-analysis": {
+      "id": "sentiment-analysis",
+      "title": "Sentiment Analysis on Feedback",
+      "shortDescription": "Automatically analyse customer reviews and contact forms to detect satisfaction level.",
+      "markdownFile": "/content/services/sentiment-analysis.md",
+      "category": "support",
+      "features": ["Real-time Analysis", "Multi-platform Integration", "Custom Models", "Actionable Insights"],
+      "technologies": ["BERT", "RoBERTa", "VADER", "TextBlob", "Custom Neural Networks"]
+    },
+    "ai-content-generator": {
+      "id": "ai-content-generator",
+      "title": "AI Content Generator",
+      "shortDescription": "Automatically generate blogs, product descriptions, and marketing copy.",
+      "markdownFile": "/content/services/ai-content-generator.md",
+      "category": "marketing",
+      "features": ["Multi-format Content", "SEO Optimization", "Brand Voice Training", "Bulk Generation"],
+      "technologies": ["GPT-4", "Claude", "Jasper AI", "Copy.ai", "Custom Fine-tuning"]
+    },
+    "social-media-creator": {
+      "id": "social-media-creator",
+      "title": "Social Media Post Creator",
+      "shortDescription": "Create AI-assisted social media content with optimized hashtags and captions.",
+      "markdownFile": "/content/services/social-media-creator.md",
+      "category": "marketing",
+      "features": ["Platform-specific Optimization", "Hashtag Generation", "Visual Content", "Scheduling Integration"],
+      "technologies": ["OpenAI API", "Stable Diffusion", "DALL-E", "Canva API", "Buffer API"]
+    },
+    "seo-optimization": {
+      "id": "seo-optimization",
+      "title": "SEO Optimization Tool",
+      "shortDescription": "AI keyword analysis and ranking suggestions for better search engine visibility.",
+      "markdownFile": "/content/services/seo-optimization.md",
+      "category": "marketing",
+      "features": ["Keyword Research", "Content Analysis", "Competitor Insights", "Performance Tracking"],
+      "technologies": ["Google Search Console API", "SEMrush API", "Ahrefs API", "Natural Language Processing"]
+    },
+    "recommendation-engine": {
+      "id": "recommendation-engine",
+      "title": "Recommendation Engine",
+      "shortDescription": "Suggest products/services based on user browsing and purchase history.",
+      "markdownFile": "/content/services/recommendation-engine.md",
+      "category": "personalization",
+      "features": ["Collaborative Filtering", "Content-based Filtering", "Real-time Updates", "A/B Testing"],
+      "technologies": ["TensorFlow Recommenders", "Apache Mahout", "Surprise", "LightFM", "Neural Collaborative Filtering"]
+    },
+    "dynamic-pricing": {
+      "id": "dynamic-pricing",
+      "title": "Dynamic Pricing AI",
+      "shortDescription": "Adjust pricing based on demand, competitor prices, and inventory.",
+      "markdownFile": "/content/services/dynamic-pricing.md",
+      "category": "personalization",
+      "features": ["Real-time Price Optimization", "Competitor Monitoring", "Demand Forecasting", "Revenue Maximization"],
+      "technologies": ["Reinforcement Learning", "Time Series Analysis", "Prophet", "ARIMA", "XGBoost"]
+    },
+    "customized-offers": {
+      "id": "customized-offers",
+      "title": "Customized Offers & Email Marketing",
+      "shortDescription": "AI-driven personalized promotions.",
+      "markdownFile": "/content/services/customized-offers.md",
+      "category": "personalization",
+      "features": ["Behavioral Targeting", "A/B Testing", "Conversion Optimization", "Multi-channel Campaigns"],
+      "technologies": ["Customer Data Platform", "Mailchimp API", "Sendgrid", "Personalization Engines"]
+    },
+    "predictive-analytics": {
+      "id": "predictive-analytics",
+      "title": "Predictive Analytics Dashboard",
+      "shortDescription": "Forecast sales, customer churn, and demand trends.",
+      "markdownFile": "/content/services/predictive-analytics.md",
+      "category": "analytics",
+      "features": ["Real-time Forecasting", "Custom Dashboards", "Trend Analysis", "Automated Reports"],
+      "technologies": ["Prophet", "ARIMA", "XGBoost", "Tableau", "Power BI"]
+    },
+    "data-visualization": {
+      "id": "data-visualization",
+      "title": "Automated Data Visualization",
+      "shortDescription": "Turn uploaded CSV/Excel files into interactive charts.",
+      "markdownFile": "/content/services/data-visualization.md",
+      "category": "analytics",
+      "features": ["Drag & Drop Upload", "Interactive Charts", "Custom Styling", "Export Options"],
+      "technologies": ["D3.js", "Chart.js", "Plotly", "Apache Superset", "Grafana"]
+    },
+    "customer-segmentation": {
+      "id": "customer-segmentation",
+      "title": "Customer Segmentation",
+      "shortDescription": "AI clustering to group customers by behaviour and preferences.",
+      "markdownFile": "/content/services/customer-segmentation.md",
+      "category": "analytics",
+      "features": ["Behavioral Analysis", "Demographic Clustering", "Predictive Segments", "Actionable Insights"],
+      "technologies": ["K-Means", "DBSCAN", "Random Forest", "scikit-learn", "Apache Spark"]
+    },
+    "image-recognition": {
+      "id": "image-recognition",
+      "title": "AI Image Recognition",
+      "shortDescription": "Detect and tag objects in user-uploaded images (e.g., product photos).",
+      "markdownFile": "/content/services/image-recognition.md",
+      "category": "media",
+      "features": ["Object Detection", "Auto Tagging", "Batch Processing", "API Integration"],
+      "technologies": ["YOLO", "ResNet", "OpenCV", "TensorFlow", "AWS Rekognition"]
+    },
+    "virtual-try-on": {
+      "id": "virtual-try-on",
+      "title": "Virtual Try-On / AR Previews",
+      "shortDescription": "Customers can preview products (clothing, furniture, etc.) before buying.",
+      "markdownFile": "/content/services/virtual-try-on.md",
+      "category": "media",
+      "features": ["AR Integration", "3D Modeling", "Real-time Preview", "Mobile Compatibility"],
+      "technologies": ["ARCore", "ARKit", "Three.js", "WebRTC", "MediaPipe"]
+    },
+    "video-summarization": {
+      "id": "video-summarization",
+      "title": "AI Video Summarization",
+      "shortDescription": "Summarize long videos for quick previews.",
+      "markdownFile": "/content/services/video-summarization.md",
+      "category": "media",
+      "features": ["Key Moment Detection", "Auto Chapters", "Transcript Generation", "Highlight Reels"],
+      "technologies": ["OpenAI Whisper", "FFmpeg", "PyTorch", "AssemblyAI", "Rev AI"]
+    },
+    "fraud-detection": {
+      "id": "fraud-detection",
+      "title": "Fraud Detection System",
+      "shortDescription": "Monitor transactions for suspicious patterns.",
+      "markdownFile": "/content/services/fraud-detection.md",
+      "category": "security",
+      "features": ["Real-time Monitoring", "Risk Scoring", "Pattern Recognition", "Alert System"],
+      "technologies": ["Isolation Forest", "Autoencoders", "XGBoost", "Apache Kafka", "Redis"]
+    },
+    "document-verification": {
+      "id": "document-verification",
+      "title": "AI-based Document Verification",
+      "shortDescription": "Automatically validate ID proofs and documents.",
+      "markdownFile": "/content/services/document-verification.md",
+      "category": "security",
+      "features": ["OCR Technology", "Fraud Detection", "Multi-format Support", "Compliance Ready"],
+      "technologies": ["Tesseract OCR", "Google Vision API", "Azure Form Recognizer", "AWS Textract"]
+    },
+    "gdpr-compliance": {
+      "id": "gdpr-compliance",
+      "title": "GDPR-Compliant Data Processing",
+      "shortDescription": "AI tools with privacy-first architecture.",
+      "markdownFile": "/content/services/gdpr-compliance.md",
+      "category": "security",
+      "features": ["Data Anonymization", "Consent Management", "Audit Trails", "Privacy by Design"],
+      "technologies": ["Differential Privacy", "Homomorphic Encryption", "Federated Learning", "Secure Multi-party Computation"]
+    }
+  }
+}
