@@ -71,8 +71,8 @@ export default function ContactPage() {
                 </p>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-12">
-                <div className="space-y-8">
+            <div className="grid lg:grid-cols-1 w-[50%] mx-auto">
+                {/* <div className="space-y-8">
                     <div className="flex items-start gap-4">
                         <div className="flex-shrink-0 w-12 h-12 bg-primary/10 text-primary rounded-lg flex items-center justify-center">
                             <Mail className="w-6 h-6" />
@@ -108,7 +108,7 @@ export default function ContactPage() {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
                 <form className="space-y-4" onSubmit={handleSubmit}>
                     <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
