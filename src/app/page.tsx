@@ -29,7 +29,7 @@ export default function Home() {
           We build custom AI solutions that drive growth, efficiency, and a competitive edge for your business</p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
-            <Link href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+            <Link href="/contact" rel="noopener noreferrer">
               <Button className="w-full md:w-1/3">Request a Call Back</Button>
             </Link>
             <Link href="/services" className={`w-full md:w-1/3 ${buttonVariants({variant: "outline"})}`}>

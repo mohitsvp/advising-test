@@ -10,6 +10,12 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, CheckCircle, Lightbulb, Rocket, Star, ArrowRight } from "lucide-react";
 import Link from "next/link";
+import { ReactNode } from "react";
+
+// Types for markdown components
+interface MarkdownComponentProps {
+    children?: ReactNode;
+}
 
 const ServiceDetailPage = () => {
     const params = useParams();
@@ -70,35 +76,35 @@ const ServiceDetailPage = () => {
         );
     }
 
-    // Custom markdown components
+    // Custom markdown components with proper types
     const MarkdownComponents = {
-        h1: ({ children }: any) => (
+        h1: ({ children }: MarkdownComponentProps) => (
             <h1 className="text-4xl font-bold mb-6 bg-gradient-to-r from-[#F596D3] to-[#D247BF] text-transparent bg-clip-text">
                 {children}
             </h1>
         ),
-        h2: ({ children }: any) => (
+        h2: ({ children }: MarkdownComponentProps) => (
             <h2 className="text-3xl font-bold mb-4 mt-8 text-foreground flex items-center">
                 <Rocket className="mr-3 h-6 w-6 text-primary" />
                 {children}
             </h2>
         ),
-        h3: ({ children }: any) => (
+        h3: ({ children }: MarkdownComponentProps) => (
             <h3 className="text-2xl font-semibold mb-3 mt-6 text-foreground">{children}</h3>
         ),
-        p: ({ children }: any) => (
+        p: ({ children }: MarkdownComponentProps) => (
             <p className="text-lg text-muted-foreground mb-4 leading-relaxed">{children}</p>
         ),
-        ul: ({ children }: any) => (
+        ul: ({ children }: MarkdownComponentProps) => (
             <ul className="space-y-2 mb-6">{children}</ul>
         ),
-        li: ({ children }: any) => (
+        li: ({ children }: MarkdownComponentProps) => (
             <li className="flex items-start">
                 <CheckCircle className="mr-3 h-5 w-5 text-green-500 mt-0.5 flex-shrink-0" />
                 <span className="text-muted-foreground">{children}</span>
             </li>
         ),
-        strong: ({ children }: any) => (
+        strong: ({ children }: MarkdownComponentProps) => (
             <strong className="font-bold text-primary">{children}</strong>
         ),
     };
@@ -161,7 +167,7 @@ const ServiceDetailPage = () => {
                         transition={{ delay: 0.3 }}
                         className="mt-8 flex flex-col sm:flex-row gap-4 justify-center"
                     >
-                        <Button size="lg" className="bg-black hover:from-[#E085C2] hover:to-[#C136AE]">
+                        <Button size="lg" className="hover:from-[#E085C2] hover:to-[#C136AE]">
                             Get Started Today
                         </Button>
                         <Button variant="outline" size="lg">
@@ -277,7 +283,7 @@ const ServiceDetailPage = () => {
                         <CardContent className="text-center py-12 px-8">
                             <h2 className="text-3xl font-bold mb-4">Ready to Get Started?</h2>
                             <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-                                Let's discuss how {service.name} can transform your business and drive measurable results.
+                                Let&apos;s discuss how {service.name} can transform your business and drive measurable results.
                             </p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center">
                                 <Button size="lg" className="bg-gradient-to-r from-[#F596D3] to-[#D247BF] hover:from-[#E085C2] hover:to-[#C136AE]">
