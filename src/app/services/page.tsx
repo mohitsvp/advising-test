@@ -19,7 +19,7 @@ export default function ServicePage() {
             </div>
 
             <Tabs defaultValue="support" className="w-full">
-                <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
+                <TabsList className="grid w-full grid-cols-2 md:grid-cols-3 lg:grid-cols-6 cursor-pointer">
                     {
                         serviceCategories.map((category) => (
                             <TabsTrigger key={category.value} value={category.value}>
@@ -32,7 +32,7 @@ export default function ServicePage() {
                 {
                     serviceCategories.map((category) => (
                         <TabsContent key={category.value} value={category.value}>
-                            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8">
+                            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 cursor-pointer">
                                 {
                                     category.services.map((service) => (
                                         <Card key={service.name} onClick={() => router.push(`/services/${service.id}`)}>

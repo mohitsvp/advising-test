@@ -30,7 +30,7 @@ export default function Home() {
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
             <Link href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-              <Button className="w-full md:w-1/3">Schedule a Call</Button>
+              <Button className="w-full md:w-1/3">Request a Call Back</Button>
             </Link>
             <Link href="/services" className={`w-full md:w-1/3 ${buttonVariants({variant: "outline"})}`}>
               Our Services

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
@@ -46,7 +46,7 @@ export default function RootLayout({
             <Footer/>
           </div>
           <Toaster/>
-          <FloatingChatbot/>
+          {/* <FloatingChatbot/> */}
         </ThemeProvider>
       </body>
     </html>
