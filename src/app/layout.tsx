@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/providers/ThemeProvider";
 import { AnimationWrapper } from "@/components/layout/AnimationWrapper";
 import { Toaster } from "@/components/ui/toaster";
 import { GoogleAnalytics } from "@/components/layout/GoogleAnalytics";
-import { FloatingChatbot } from "@/components/chatbot/FloatingChatbot";
+// import { FloatingChatbot } from "@/components/chatbot/FloatingChatbot";
 
 const poppins = Poppins({
   subsets: ['latin'],
